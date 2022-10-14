@@ -72,7 +72,7 @@ const spørsmaal = [
     },
     {
         tittel: "Straff",
-        spørsmål:"Neste kast må kastet på kne"
+        spørsmål:"Neste kast må kastes på kne"
     },
     {
         tittel: "Belønning",
@@ -122,11 +122,28 @@ const spørsmaal = [
         tittel: "Belønning",
         spørsmål:"Velg en av lagets kopper, putt noe under. Hvis det andre laget treffer denne koppen så er den imun i en runde, og det blir deres runde"
     },
+    {
+        tittel: "Belønning",
+        spørsmål:"Hvis den neste ballen ditt lag kaster treffer en kopp, så fjernes alle kopper som er på samme rad"
+    },
+    {
+        tittel: "Belønning",
+        spørsmål:"Hvis den neste ballen laget ditt kaster treffer en kopp, så er det ditt lags tur igjen, forsett til dere bommer"
+    },
+    {
+        tittel: "Straff",
+        spørsmål:"Ta fem slurker"
+    },
+    {
+        tittel: "Straff",
+        spørsmål:"Alle på laget ditt tar en slurk per deltager på laget"
+    },
 ];
 
 let i = 0;
 
 function spill() {
+    console.log("antall oppgaver: " + spørsmaal.length) 
     const random = Math.floor(Math.random() * spørsmaal.length);
     i = random;
 
