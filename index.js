@@ -109,6 +109,14 @@ const spørsmaal = [
         tittel: "Revival-mania",
         spørsmål:"Plasser ut ditt lags utgåtte kopper hvorenn dere vil på bordet ( ingen kontakt med motstanderenes kopper)"
     },
+    {
+        tittel: "Jeg har aldri",
+        spørsmål:"Si en ting du aldri har gjort, de som har må drikke"
+    },
+    {
+        tittel: "Kategori",
+        spørsmål:"Begge lagene spiller. Velg en kategori (feks biler ) si så bilmerker i rundgang til en ikke kommer på noe innen 3 sekunder. Taperen og dens lager drikker"
+    },
 ];
 
 let i = 0;
