@@ -31,7 +31,7 @@ const spørsmaal = [
         spørsmål:"Ta en skål med rommet"
     },
     {
-        tittel: "Sacrefice",
+        tittel: "Sacrifice",
         spørsmål:"Hvis det andre laget drikker opp sitt glass så kan koppen bli lagt tilbake"
     },
     {
