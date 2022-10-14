@@ -1,4 +1,5 @@
 const center = document.querySelector("#center");
+const refresh = document.querySelector("#refresh");
 
 const spørsmaal = [
     {
@@ -95,7 +96,7 @@ const spørsmaal = [
     },
     {
         tittel: "Belønning",
-        spørsmål:"Sprett kastene deres er fra nå av imune"
+        spørsmål:"Sprett-kastene deres er fra nå av imune"
     },
     {
         tittel: "Mulighet",
@@ -117,6 +118,10 @@ const spørsmaal = [
         tittel: "Kategori",
         spørsmål:"Begge lagene spiller. Velg en kategori (feks biler ) si så bilmerker i rundgang til en ikke kommer på noe innen 3 sekunder. Taperen og dens lager drikker"
     },
+    {
+        tittel: "Belønning",
+        spørsmål:"Velg en av lagets kopper, putt noe under. Hvis det andre laget treffer denne koppen så er den imun i en runde, og det blir deres runde"
+    },
 ];
 
 let i = 0;
@@ -136,5 +141,7 @@ function spill() {
         <p>${oppgave.spørsmål}</p>
     `
 }
+
+
 
 spill();

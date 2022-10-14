@@ -3,6 +3,7 @@ h1{
     color: #f6f1a6;
     font-size: 32px;
     -webkit-animation: bounce1 1s ease 1 alternate;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
 }
 
 p{
@@ -16,15 +17,38 @@ html{
     margin: 0;
 }
 
-body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 100vh;
+
+Body{
+    height: auto;
     width:100vw;
     text-align: center;
     background-color: #135480;
     overflow-x: hidden;
     overflow-y: hidden;
     margin: 0;
+}
+
+header{
+    color: #f6f1a6;
+    width: auto;
+    margin: 48px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#refresh{
+    height: 32px;
+    width: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    color: #f6f1a6;
+    font-size: 24px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
 }
 
 #center{
@@ -38,7 +62,7 @@ body{
 
 @-webkit-keyframes bounce1{
     0% {
-        text-shadow: 4px 4px rgba(0, 0, 0, 0.4)
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
     }
     50% {
       transform:translateY(-20px);
@@ -48,7 +72,7 @@ body{
     100% {
         transform:translateY(0);
         font-size:32px;
-        text-shadow: rgba(0, 0, 0, 0.1)
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
       }
   }
   @-webkit-keyframes bounce2 {
