@@ -10,22 +10,24 @@ p{
     color:#f6f1a6;
     font-size: 22px;
     font-family: 'Chillax', sans-serif;
-    
+    font-weight: 500;
 }
 
 html{
     margin: 0;
+    background-color: #135480;
 }
 
 
 Body{
     height: auto;
     width:100vw;
+    max-width: 700px;
     text-align: center;
-    background-color: #135480;
     overflow-x: hidden;
     overflow-y: hidden;
-    margin: 0;
+    margin: 0 auto;
+
 }
 
 header{
@@ -33,7 +35,10 @@ header{
     width: auto;
     margin: 48px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+#info{
+    justify-self: start;
 }
 
 #refresh{
@@ -43,6 +48,8 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    justify-self: end;
 }
 
 i{

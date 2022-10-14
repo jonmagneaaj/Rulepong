@@ -138,6 +138,10 @@ const spørsmaal = [
         tittel: "Straff",
         spørsmål:"Alle på laget ditt tar en slurk per deltager på laget"
     },
+    {
+        tittel: "Mulighet",
+        spørsmål:"Den neste runden så må alle baller kastes på likt, drikk en slurk for hver som bommer, og gi bort dobbelt for hver som treffer"
+    },
 ];
 
 let i = 0;
