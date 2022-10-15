@@ -95,8 +95,8 @@ const spørsmaal = [
         spørsmål:"Fjern den samme koppen på deres side, om den alt er fjernet, ta den tilbake i spill"
     },
     {
-        tittel: "Belønning",
-        spørsmål:"Sprett-kastene deres er fra nå av imune"
+        tittel: "Mulighet",
+        spørsmål:"Neste runde så må ballene sprettes, de er imune og hver ball telles dobbelt"
     },
     {
         tittel: "Mulighet",
