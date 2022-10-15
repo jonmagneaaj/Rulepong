@@ -28,11 +28,15 @@ const spørsmaal = [
     },
     {
         tittel: "Straff",
+        spørsmål:"Si til partneren din hvor god den er i beerpong"
+    },
+    {
+        tittel: "Straff",
         spørsmål:"Ta en skål med rommet"
     },
     {
-        tittel: "Sacrifice",
-        spørsmål:"Hvis det andre laget drikker opp sitt glass så kan koppen bli lagt tilbake"
+        tittel: "Mulighet",
+        spørsmål:"Hvis det andre laget drikker opp sine glass så kan koppen bli lagt tilbake"
     },
     {
         tittel: "Straff",
@@ -83,39 +87,39 @@ const spørsmaal = [
         spørsmål:"Ditt lag kan kun kaste trick-shots til en kopp blir truffet"
     },
     {
-        tittel: ":)",
-        spørsmål:"Si en positiv ting om bursdagsbarnet"
+        tittel: "Mulighet",
+        spørsmål:"Si en positiv ting om bursdagsbarnet/hosten, gi så ut en slurk til hvem som helst i rommet "
     },
     {
         tittel: "Straff",
         spørsmål:"Velg deg en Drinking-buddy på det andre laget"
     },
     {
-        tittel: "Speil",
+        tittel: "Mulighet",
         spørsmål:"Fjern den samme koppen på deres side, om den alt er fjernet, ta den tilbake i spill"
     },
     {
         tittel: "Mulighet",
-        spørsmål:"Neste runde så må ballene sprettes, de er imune og hver ball telles dobbelt"
+        spørsmål:"Neste runde så må ballene til ditt lag sprettes, de er imune og hver ball telles dobbelt"
     },
     {
         tittel: "Mulighet",
-        spørsmål:"Vedd X antall slurker. Treffr du neste kast så må det andre laget ta X slurker, bommer du så må ditt lag ta X slurker"
+        spørsmål:"Vedd X antall slurker. Treffer du neste kast så må det andre laget ta X slurker, bommer du så må ditt lag ta X slurker"
     },
     {
         tittel: "Mulighet",
         spørsmål:"Neste laget som må drikke, må drikke dobbelt"
     },
     {
-        tittel: "Revival-mania",
+        tittel: "Mulighet",
         spørsmål:"Plasser ut ditt lags utgåtte kopper hvorenn dere vil på bordet ( ingen kontakt med motstanderenes kopper)"
     },
     {
-        tittel: "Jeg har aldri",
+        tittel: "Mulighet",
         spørsmål:"Si en ting du aldri har gjort, de som har må drikke"
     },
     {
-        tittel: "Kategori",
+        tittel: "Mulighet",
         spørsmål:"Begge lagene spiller. Velg en kategori (feks biler ) si så bilmerker i rundgang til en ikke kommer på noe innen 3 sekunder. Taperen og dens lager drikker"
     },
     {
